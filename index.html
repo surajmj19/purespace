@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PURESPACE</title>
+
+    <link
+      rel="shortcut icon"
+      href="./src/icon/favicon.svg"
+      type="image/x-icon"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <a href="#home" class="logo" aria-label="Go to Home">
+          <i class="ri-leaf-fill logo__icon" aria-hidden="true"></i>
+          Purespace
+        </a>
+
+        <nav
+          class="primary-nav"
+          id="primary-nav"
+          aria-label="Primary Navigation Menu"
+        >
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link is-current">Home</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#why-choose-us" class="nav-link">Why Us</a></li>
+            <li><a href="#how-it-works" class="nav-link">How it Works</a></li>
+            <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          </ul>
+        </nav>
+
+        <a
+          href="/booking.html"
+          class="btn btn--primary btn--sm primary-nav-cta"
+        >
+          Book a clean
+          <i class="ri-arrow-right-line" aria-hidden="true"></i>
+        </a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-label="Open Navigation"
+          aria-expanded="false"
+        >
+          <i class="ri-menu-line" aria-hidden="true"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navigation menu">
+      <ul class="nav-list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#why-choose-us" class="nav-link">Why Us</a></li>
+        <li><a href="#how-it-works" class="nav-link">How it Works</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+      </ul>
+
+      <a href="/booking.html" class="btn btn--primary btn--sm mobile-nav-cta">
+        Book a clean
+        <i class="ri-arrow-right-long-line" aria-hidden="true"></i>
+      </a>
+    </nav>
+
+    <main>
+      <!-- Hero section -->
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="content-box">
+            <div class="eyebrow">PREMIUM HOME CLEANING SERVICES</div>
+            <h1 class="head">A cleaner home. A calmer mind.</h1>
+            <p class="description description--lg">
+              Professional, insured home cleaning tailored to your schedule. We
+              use non-toxic, pet-safe products to give you a spotless home
+              without the stress.
+            </p>
+
+            <div class="cta-box">
+              <a href="/booking.html" class="btn btn--primary">
+                Book Your First clean
+                <i class="ri-arrow-right-line" aria-hidden="true"></i>
+              </a>
+
+              <a href="tel" class="btn btn--outline">
+                Call Us
+                <i class="ri-phone-line" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <!-- trust preview -->
+            <div class="trust-preview">
+              <div class="tp-item">
+                <img
+                  src="./src/img/client/av-1.png"
+                  class="avatar avatar--sm tp-avatar"
+                />
+                <img
+                  src="./src/img/client/av-2.png"
+                  class="avatar avatar--sm tp-avatar"
+                />
+                <img
+                  src="./src/img/client/av-3.png"
+                  class="avatar avatar--sm tp-avatar"
+                />
+                <img
+                  src="./src/img/client/av-4.png"
+                  class="avatar avatar--sm tp-avatar"
+                />
+              </div>
+
+              <div class="tp-item" aria-label="5 star rating">
+                <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+              </div>
+
+              <div class="tp-label">Trusted by 500+ happy homeowners</div>
+            </div>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <p class="stat__bg-text">500+</p>
+              <p class="stat__sm-text">Homes Cleaned</p>
+            </div>
+
+            <div class="stat">
+              <p class="stat__bg-text">
+                4.9
+                <i class="ri-star-fill stat__icon" aria-hidden="true"></i>
+              </p>
+              <p class="stat__sm-text">Average Rating</p>
+            </div>
+
+            <div class="stat">
+              <p class="stat__bg-text">100%</p>
+              <p class="stat__sm-text">Client Satisfaction</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust benefits / reassurance -->
+      <section id="trust-bar" class="trust-bar section--white">
+        <div class="container">
+          <div class="bar">
+            <div class="bar-item">
+              <i class="ri-shield-check-line icon" aria-hidden="true"></i>
+              <div>
+                <p class="title">Trusted Professionals</p>
+                <p class="description description--sm">
+                  Background-checked & insured
+                </p>
+              </div>
+            </div>
+
+            <div class="bar-item">
+              <i class="ri-leaf-line icon" aria-hidden="true"></i>
+              <div>
+                <p class="title">Eco-Friendly Product</p>
+                <p class="description description--sm">
+                  Safe for your family & the planet
+                </p>
+              </div>
+            </div>
+
+            <div class="bar-item">
+              <i class="ti ti-paw icon" aria-hidden="true"></i>
+              <div>
+                <p class="title">Pet-Friendly</p>
+                <p class="description description--sm">
+                  A cleaner home for everyone
+                </p>
+              </div>
+            </div>
+
+            <div class="bar-item">
+              <i class="ri-calendar-line icon" aria-hidden="true"></i>
+              <div>
+                <p class="title">Flexible Scheduling</p>
+                <p class="description description--sm">
+                  Book cleaning when it works for you
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our services -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-grid">
+            <div class="content-box">
+              <div class="eyebrow">OUR SERVICES</div>
+              <h2 class="section-title">The right clean for every space.</h2>
+              <p class="description">
+                Find the right cleaning service for your space and schedule.
+              </p>
+              <a href="/services.html" class="btn btn--sm">
+                Explore More Services
+                <i class="ri-arrow-right-line btn__icon" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <!-- Service Cards -->
+            <div class="inner-grid">
+              <div class="card">
+                <img
+                  src="./src/img/service-img-1.png"
+                  alt="A girl cleaning a home"
+                  class="card__img"
+                />
+                <div class="card-info">
+                  <div class="card__icon">
+                    <!-- <i class="ri-home-4-line icon" aria-hidden="true"></i> -->
+                  </div>
+                  <h3 class="card-title">Regular Home Cleaning</h3>
+                  <p class="description description--sm">
+                    Keep your home fresh, tidy, and comfortable with routine
+                    cleaning.
+                  </p>
+                  <a href="" class="card__action"
+                    >Learn more
+                    <i
+                      class="ri-arrow-right-line btn__icon"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="./src/img/service-img-2.png"
+                  alt="A man cleaning a bedroom"
+                  class="card__img"
+                />
+                <div class="card-info">
+                  <div class="card__icon">
+                    <!-- <i class="ri-sparkling-2-line icon" aria-hidden="true"></i> -->
+                  </div>
+                  <h3 class="card-title">Deep Cleaning</h3>
+                  <p class="description description--sm">
+                    Give every corner extra attention with a detailed
+                    top-to-bottom clean.
+                  </p>
+                  <a href="" class="card__action"
+                    >Learn more
+                    <i
+                      class="ri-arrow-right-line btn__icon"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="./src/img/service-img-3.png"
+                  alt="Two girls cleaning kitchen"
+                  class="card__img"
+                />
+                <div class="card-info">
+                  <div class="card__icon">
+                    <!-- <i class="ri-home-9-line icon" aria-hidden="true"></i> -->
+                  </div>
+                  <h3 class="card-title">Move-In / Move-Out Cleaning</h3>
+                  <p class="description description--sm">
+                    Leave your old space spotless or make your new home feel
+                    ready from day one.
+                  </p>
+                  <a href="" class="card__action"
+                    >Learn more
+                    <i
+                      class="ri-arrow-right-line btn__icon"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why choose PURESPACE -->
+      <section id="why-choose-us" class="why-choose-us section--white">
+        <div class="container container--fluid">
+          <div class="section-grid">
+            <div class="visual">
+              <img
+                src="./src/img/why-img.png"
+                alt="Cleaning a desk"
+                class="section-img"
+              />
+            </div>
+
+            <div class="content-box">
+              <div class="eyebrow">WHY CHOOSE PURESPACE</div>
+              <h2 class="section-title">More than clean. It's care.</h2>
+              <p class="description">
+                A thoughtful approach to home cleaning that puts your comfort,
+                time, and peace of mind first.
+              </p>
+
+              <div class="bar why-bar">
+                <div class="bar-item">
+                  <i
+                    class="ri-checkbox-circle-fill icon icon--sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>Deep care for your home</p>
+                </div>
+                <div class="bar-item">
+                  <i
+                    class="ri-checkbox-circle-fill icon icon--sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>Reliable & Professional</p>
+                </div>
+                <div class="bar-item">
+                  <i
+                    class="ri-checkbox-circle-fill icon icon--sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>Flexible Scheduling</p>
+                </div>
+                <div class="bar-item">
+                  <i
+                    class="ri-checkbox-circle-fill icon icon--sm"
+                    aria-hidden="true"
+                  ></i>
+                  <p>Thoughtful Product</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Booking process -->
+      <section id="how-it-works" class="how-it-works">
+        <div class="container">
+          <div class="section-grid">
+            <div class="content-box">
+              <div class="eyebrow">HOW IT WORKS</div>
+              <h2 class="section-title">A spotless home, made easy.</h2>
+            </div>
+
+            <div>
+              <div class="bar">
+                <div class="bar-item">
+                  <div class="icon">1</div>
+                  <div>
+                    <p class="title">Book Online</p>
+                    <p class="description description--sm">
+                      Select the service and time that suits you.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bar-item">
+                  <div class="icon">2</div>
+                  <div>
+                    <p class="title">We Clean</p>
+                    <p class="description description--sm">
+                      Our trusted professional arrives and gets to work.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="bar-item">
+                  <div class="icon">3</div>
+                  <div>
+                    <p class="title">Enjoy</p>
+                    <p class="description description--sm">
+                      Enjoy a refreshed space and more time to yourself.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Customer reviews -->
+      <section id="testimonials" class="testimonials section--white">
+        <div class="container container--fluid">
+          <div class="section-grid">
+            <div class="inner-grid">
+              <div class="card card-info" id="testimonial-1">
+                <i class="ri-double-quotes-l quote-icon" aria-hidden="true"></i>
+                <p class="description description--sm quote-text">
+                  Coming home after a PURESPACE clean is honestly the best
+                  feeling. Everything looks beautiful, smells fresh, and even
+                  the little details are taken care of. It's become one of my
+                  favorite things to do for myself.
+                </p>
+
+                <div class="tp-item" aria-label="5 star rating">
+                  <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                  <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                  <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                  <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                  <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                </div>
+
+                <div class="client-info">
+                  <img
+                    src="./src/img/client/av-1.png"
+                    class="avatar avatar--bg"
+                  />
+                  <div>
+                    <p class="title person">Sarah L</p>
+                    <p class="description description--sm location">
+                      Austin, Texas, USA
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card card-info" id="testimonial-2">
+                <i class="ri-double-quotes-l quote-icon" aria-hidden="true"></i>
+                <p class="description description--sm quote-text">
+                  We booked a deep clean before hosting family, and the
+                  difference was incredible. The kitchen and bathrooms looked
+                  amazing, and the whole experience was easy from start to
+                  finish.
+                </p>
+
+                <div class="tp-item" aria-label="5 star rating">
+                  <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                  <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                  <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                  <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                  <i class="ri-star-fill star-rating" aria-hidden="true"></i>
+                </div>
+
+                <div class="client-info">
+                  <img
+                    src="./src/img/client/av-2.png"
+                    class="avatar avatar--bg"
+                  />
+                  <div>
+                    <p class="title person">Mica j</p>
+                    <p class="description description--sm location">
+                      Charlotte, North Carolina, USA
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-box">
+              <div class="eyebrow">WHAT OUR CLIENTS SAY</div>
+              <h2 class="section-title">Homes cleaned. Lives brighter</h2>
+              <p class="description">
+                The best part of what we do is knowing that home feels a little
+                better afterward.
+              </p>
+              <div class="cta-box">
+                <button id="prev" class="prev testi-cta">
+                  <i
+                    class="ri-arrow-left-long-line btn__icon"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+
+                <button id="next" class="next testi-cta">
+                  <i
+                    class="ri-arrow-right-long-line btn__icon"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </div>
+            </div>
+            <div class="visual">
+              <img src="./src/img/hero-img.png" alt="" class="section-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Frequently asked questions -->
+      <section id="faq" class="faq">
+        <div class="container">
+          <div class="section-grid">
+            <div class="content-box">
+              <div class="eyebrow">FAQ</div>
+              <h2 class="section-title">Quick answers to your questions.</h2>
+              <p class="description">
+                Everything you need to feel confident before booking.
+              </p>
+              <a href="tel" class="btn">
+                Call Us
+                <i class="ri-phone-line" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div>
+              <div class="faq-box">
+                <details class="field" name="faq">
+                  <summary class="field-top">
+                    <p class="qs">What areas do you serve?</p>
+                    <i
+                      class="ri-add-large-line faq-icon"
+                      aria-hidden="true"
+                    ></i>
+                  </summary>
+                  <div class="field-bottom">
+                    <p class="an">
+                      Service availability depends on your location. Contact us
+                      to confirm whether your area is covered.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="field" name="faq">
+                  <summary class="field-top">
+                    <p class="qs">How long does a cleaning take?</p>
+                    <i
+                      class="ri-add-large-line faq-icon"
+                      aria-hidden="true"
+                    ></i>
+                  </summary>
+                  <div class="field-bottom">
+                    <p class="an">
+                      It depends on your home's size, condition, and the service
+                      you choose.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="field" name="faq">
+                  <summary class="field-top">
+                    <p class="qs">Can I reschedule my booking?</p>
+                    <i
+                      class="ri-add-large-line faq-icon"
+                      aria-hidden="true"
+                    ></i>
+                  </summary>
+                  <div class="field-bottom">
+                    <p class="an">
+                      Contact us as early as possible to discuss available
+                      alternatives.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="field" name="faq">
+                  <summary class="field-top">
+                    <p class="qs">How long does a cleaning take?</p>
+                    <i
+                      class="ri-add-large-line faq-icon"
+                      aria-hidden="true"
+                    ></i>
+                  </summary>
+                  <div class="field-bottom">
+                    <p class="an">
+                      It depends on your home's size, condition, and the service
+                      you choose.
+                    </p>
+                  </div>
+                </details>
+
+                <details class="field" name="faq">
+                  <summary class="field-top">
+                    <p class="qs">
+                      Do you offer one-time and recurring cleaning?
+                    </p>
+                    <i
+                      class="ri-add-large-line faq-icon"
+                      aria-hidden="true"
+                    ></i>
+                  </summary>
+                  <div class="field-bottom">
+                    <p class="an">
+                      Both options can be offered depending on the service and
+                      schedule.
+                    </p>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Final call to action -->
+      <section id="final-cta" class="final-cta">
+        <div class="container">
+          <div class="section-grid">
+            <div class="content-box">
+              <div class="eyebrow">BOOKING</div>
+              <h2 class="section-title">
+                Leave the cleaning to us. Make room for living.
+              </h2>
+              <p class="description">
+                A fresh space. A slower Sunday. Alittle more life at home.
+              </p>
+
+              <div class="cta-box">
+                <a href="/booking.html" class="btn btn--light">
+                  Book your first clean
+                  <i
+                    class="ri-arrow-right-up-long-line btn__icon"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+
+                <a class="btn btn--disabled" aria-disabled="true"
+                  >Simple booking. Thoughtful care.</a
+                >
+              </div>
+            </div>
+
+            <div class="visual">
+              <img src="./src/img/cta-img.png" alt="" class="section-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer content -->
+    <footer class="footer">
+      <div class="container">
+        <div class="section-grid">
+          <div class="content-box">
+            <a href="#home" class="logo logo--light" aria-label="Go to Home">
+              <i class="ri-leaf-fill logo__icon" aria-hidden="true"></i>
+              Purespace
+            </a>
+            <p class="description description--sm">
+              Thoughtful home cleaning designed to bring freshness, comfort, and
+              a little more breathing room to your everyday life.
+            </p>
+
+            <div class="cta-box footer-social">
+              <a
+                href="facebook.com/purespace"
+                class="social-link"
+                aria-label="Facebook"
+              >
+                <i class="ri-facebook-fill" aria-hidden="true"></i>
+              </a>
+              <a
+                href="instagram.com/purespace"
+                class="social-link"
+                aria-label="Instagram"
+              >
+                <i class="ri-instagram-fill" aria-hidden="true"></i>
+              </a>
+              <a
+                href="youtube.com/purespace"
+                class="social-link"
+                aria-label="YouTube"
+              >
+                <i class="ri-youtube-fill" aria-hidden="true"></i>
+              </a>
+              <a
+                href="tiktok.com/purespace"
+                class="social-link"
+                aria-label="TikTok"
+              >
+                <i class="ri-tiktok-fill" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-title">Our Services</h3>
+            <ul class="footer-list">
+              <li>Regular Cleaning</li>
+              <li>Deep Cleaning</li>
+              <li>Move-in/Move-out</li>
+              <li>Custom Cleaning</li>
+            </ul>
+          </div>
+
+          <nav class="footer-col" aria-label="footer navigation">
+            <h3 class="footer-title">Quick Links</h3>
+            <ul class="footer-list">
+              <li><a href="#home " class="footer-link">Home</a></li>
+              <li><a href="#services" class="footer-link">Service</a></li>
+              <li>
+                <a href="#how-it-works" class="footer-link">How it works</a>
+              </li>
+              <li><a href="#testimonials" class="footer-link">Reviews</a></li>
+            </ul>
+          </nav>
+
+          <div class="footer-col">
+            <h3 class="footer-title">Contacts</h3>
+            <div class="footer-contact">
+              <i class="ri-phone-line" aria-hidden="true"></i>
+              <a href="tel:+15551234567" class="footer-link"
+                >+1 (555) 123-4567</a
+              >
+
+              <i class="ri-mail-line" aria-hidden="true"></i>
+              <a href="mailto:hello@purespace.com" class="footer-link"
+                >hello@purespace.com</a
+              >
+
+              <i class="ri-map-pin-line" aria-hidden="true"></i>
+              <p>Austin, TX 78701 United States</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
